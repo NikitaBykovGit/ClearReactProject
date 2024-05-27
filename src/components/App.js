@@ -5,16 +5,14 @@ import Header from "./Header"
 import Main from "./Main"
 import Footer from "./Footer"
 
-class App extends Component {
-  render() {
-    return (
-      <Fragment>
-        <Header/>
-        <Main/>
-        <Footer/>
-      </Fragment>
-    )
-  }
+function App() {
+  return (
+    <Fragment>
+      <Header/>
+      <Main/>
+      <Footer/>
+    </Fragment>
+  )
 }
 
 export default App;
