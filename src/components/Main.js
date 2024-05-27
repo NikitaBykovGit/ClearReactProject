@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 
 import "../styles/Main.css"
 
-function Main {
+function Main() {
   return (
     <main>This is Main</main>
   )
